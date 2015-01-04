@@ -11,4 +11,7 @@ Cool features:
 - The Linux plague (systemd) will be replaced with a smaller init system (probably, something similar to OpenWrt init and [procd](http://wiki.openwrt.org/doc/techref/procd))
 - Obsolete Xorg will be replaced with Wayland and Weston for GUI (Weston will be changed to something else later)
 - Perl and Python workaround-scripts will be rewritten in pure sh, so I will not include the interperters by default
-- Coreutils, util-linux and some other packages will be replaced with a single binary [toybox](http://landley.net/toybox/)
+- coreutils, util-linux and some other packages will be replaced with a single binary [toybox](http://landley.net/toybox/)
+- dpkg will be replaced with opkg
+- dash will be the default shell instead of bash
+- connman will replace NetworkManager
