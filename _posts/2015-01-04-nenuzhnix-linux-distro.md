@@ -17,4 +17,4 @@ Cool features:
 * dash will be the default shell instead of bash
 * connman will replace NetworkManager
 
-It would be good experience to build a non-GNU system with Linux kernel (no glibc, no gcc, no coreutils), but it is hardly possible now, so this is not the aim of Nenuzhnix. The aim of Nenuzhnix is to be a "yet another Linux distro" which is very small, understandable and simple, ideal for KISS philosophy lovers.
+The aim of Nenuzhnix is to be a "yet another Linux distro" which is very small, understandable and simple, ideal for KISS principle fans.
