@@ -13,7 +13,7 @@ Cool features:
 * Obsolete Xorg will be replaced with Wayland and Weston for GUI (Weston will be changed to something else later)
 * Perl and Python workaround-scripts will be rewritten in pure sh, so I will not include the interperters by default
 * coreutils, util-linux and some other packages will be replaced with a single binary [toybox](http://landley.net/toybox/)
-* dpkg will be replaced by opkg
+* dpkg will be replaced by opkg (compatible package manager from OpenWrt)
 * dash will be the default shell instead of bash (bash also is not included by default)
 * connman will replace NetworkManager
 
