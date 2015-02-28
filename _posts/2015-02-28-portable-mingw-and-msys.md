@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Portable MinGW and MSYS
-published: false
+published: true
 ---
 
 Sometimes I have to use Windows (for example in my university) and each times it turns out to be sort of a pain in the ass. Standard terminal window is not resizable, text editor is only able to handle DOS linebreaks, even grep is not present on some systems (on the others it is still not that functional) and the whole system is full of things that are opposite to obvious and seem very strange to me.
