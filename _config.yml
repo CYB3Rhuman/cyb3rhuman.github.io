@@ -28,6 +28,7 @@ footer-links:
   rss: rss # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: twistedpairinmyhair
@@ -37,9 +38,9 @@ google_analytics: UA-53004853-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://blog.golovin.in
+url: http://blog.golovin.in
 
-# If you're hosting your site at a Project repository on GitHub pages 
+# If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
@@ -58,7 +59,6 @@ version: v1.0.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  sass_dir: _scss
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
