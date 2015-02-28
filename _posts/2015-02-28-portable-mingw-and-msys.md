@@ -18,23 +18,23 @@ First of all, download `mingw-get-setup.exe` and run it.
 
 Then, select your USB drive's root as installation target.
 
-*img*
+![Portable MinGW and MSYS (image 2)](/images/mingw-portable-2.png)
 
 This is what you will have on your flash drive after downloading the installer.
 
-*img*
+![Portable MinGW and MSYS (image 3)](/images/mingw-portable-3.png)
 
 Select your desired options in the installer and apply. I only selected `msys-base` and `mingw32-base` (probably, you can leave it out if you don't need a complier). And this is what you will have on your flash drive after.
 
-*img*
+![Portable MinGW and MSYS (image 4)](/images/mingw-portable-4.png)
 
 To finish the installation, run `msys/1.0/msys.bat`, type `postinstall/pi.sh` and answer it's questions.
 
-*img*
+![Portable MinGW and MSYS (image 5)](/images/mingw-portable-5.png)
 
 You can later add and remove packages with `mingw-get`. I wanted to have terminal emulator and a text editor, so I also installed `msys-mintty` and `msys-vim`.
 
-*img*
+![Portable MinGW and MSYS (image 6)](/images/mingw-portable-6.png)
 
 ## Making it portable
 
@@ -96,4 +96,6 @@ Now this system is more or less complete and easily extensible.
 
 If you have similar portable system, you can use any Windows computer comfortably and compile your software with favorite compiler.
 
-*img*
+![Portable MinGW and MSYS (image 7)](/images/mingw-portable-7.png)
+
+![Portable MinGW and MSYS (image 8)](/images/mingw-portable-8.png)
