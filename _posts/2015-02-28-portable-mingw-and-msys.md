@@ -14,7 +14,7 @@ I was following the [official installation instructions](http://www.mingw.org/wi
 
 First of all, download `mingw-get-setup.exe` and run it.
 
-*img*
+![Portable MinGW and MSYS (image 1)](/images/mingw-portable-1.png)
 
 Then, select your USB drive's root as installation target.
 
