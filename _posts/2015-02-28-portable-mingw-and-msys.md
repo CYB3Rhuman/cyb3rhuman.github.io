@@ -93,3 +93,7 @@ make install
 ```
 
 Now this system is more or less complete and easily extensible.
+
+If you have similar portable system, you can use any Windows computer comfortably and compile your software with favorite compiler.
+
+*img*
