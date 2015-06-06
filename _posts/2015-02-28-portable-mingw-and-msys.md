@@ -71,10 +71,10 @@ for i in /mingw/addons/* ; do
       export LIBRARY_PATH="$LIBRARY_PATH;$i/lib"
     fi
     if [ -d $i/lib/pkgconfig ]; then
-      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH;$i/lib/pkgconfig"
+      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$i/lib/pkgconfig"
     fi
     if [ -d $i/share/pkgconfig ]; then
-      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH;$i/share/pkgconfig"
+      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$i/share/pkgconfig"
     fi
     if [ -f $i/install.sh ]; then
       . $i/install.sh
