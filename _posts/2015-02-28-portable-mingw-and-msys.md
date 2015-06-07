@@ -39,16 +39,7 @@ You can later add and remove packages with `mingw-get`. I wanted to have termina
 
 I wrote this batch script `launch.bat` on my flash drive that modifies `/etc/fstab` to use correct Windows drive letter assigned to this flash drive and then launch mintty. It also clears the `PATH`, so only MinGW and MSYS binaries are in the path, so utilities like `ping` will not be accessible unless installed with `mingw-get`.
 
-```
-@echo off
-set MSYSDRIVE=%~d0
-set PATH=
-set MSYSTEM=MINGW32
-
-%MSYSDRIVE%\msys\1.0\bin\sed.exe -i 's/.*\/mingw/%MSYSDRIVE% \/mingw/g' %MSYSDRIVE%\msys\1.0\etc\fstab
-
-%MSYSDRIVE%\msys\1.0\msys.bat --mintty
-```
+{% gist tpimh/6287c5fa043f44b16be4 %}
 
 This does the trick. Now I can use my portable system almost on any Windows computer.
 
