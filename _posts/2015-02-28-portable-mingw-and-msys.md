@@ -49,30 +49,7 @@ Official MinGW documentation recommends installing software with `/mingw` prefix
 
 To make the system see those files, add this to your `/etc/profile`:
 
-```
-for i in /mingw/addons/* ; do
-  if [ -d $i ]; then
-    if [ -d $i/bin ]; then
-      export PATH="$PATH:$i/bin"
-    fi
-    if [ -d $i/include ]; then
-      export CPATH="$CPATH;$i/include"
-    fi
-    if [ -d $i/lib ]; then
-      export LIBRARY_PATH="$LIBRARY_PATH;$i/lib"
-    fi
-    if [ -d $i/lib/pkgconfig ]; then
-      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$i/lib/pkgconfig"
-    fi
-    if [ -d $i/share/pkgconfig ]; then
-      export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$i/share/pkgconfig"
-    fi
-    if [ -f $i/install.sh ]; then
-      . $i/install.sh
-    fi
-  fi
-done
-```
+{% gist tpimh/00598a02dfbfbb6cf7a0 %}
 
 Now you generally will only need these steps to install new software:
 
