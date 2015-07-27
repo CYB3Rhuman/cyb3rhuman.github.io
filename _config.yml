@@ -29,6 +29,8 @@ footer-links:
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: twistedpairinmyhair
@@ -71,3 +73,4 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - CNAME
