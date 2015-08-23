@@ -8,14 +8,23 @@ Recently Mozilla Firefox started to block Flash Player plugin by default. And ma
 Flash Player is widely used for audio and video playback on the web. But it is not the only option nowadays: modern browsers can play audio and video without Flash Player.
 
 What else Flash Player may be used for?
+
 - **Streaming video.** Most of TV and sexy webcam streaming sites will not work, but YouTube supports video streams with Media Source Extensions enabled and Twitch [has plans on revealing a new HTML5 player](http://blog.twitch.tv/2015/07/video-player-controls-now-in-html/) soon.
+
 - **Webcam and microphone access.** Chatroulette and Omegle will not work either. The technology that should be used nowadays is WebRTC. If you just want to chat with friends, not with strangers, you can use Firefox Hello.
+
 - **Text chats.** Not only video- and voice-chats use Flash. Some text chats do. This is really retarded. There are so many chat implementations with AJAX and some new ones with WebSockets, why use Flash here?
+
 - **File uploaders.** Back in those days browsers couldn't select multiple files or upload really big file to a server. Not anymore. All Flash-based file uploaders must die.
+
 - **Vector animation.** Yes, you will have hard time playing your favorite swf-cartoons with Shumway. Try to find them rendered on YouTube.
+
 - **Games.** Tons of them. And again Shumway doesn't usually help much.
+
 - **Banners.** Annoying animated advertisement. Must die.
+
 - **Clipboard access and keylogging.** Some nasty websites do steal your clipboard contents. This is a feature, not a bug.
+
 - **Malware.** Flash Player is full of vulnerabilities, so it's a preferred technology for embedding malware in web pages.
 
 If you are okay with that, just remove Flash Player plugin from your computer and enjoy clean and fast web.
@@ -51,12 +60,19 @@ For YouTube video streaming and advanced player features MSE is used. You may fo
 In most cases just setting these values in `about:config` is enough:
 ```
 media.mediasource.enabled               true
+
 media.mediasource.mp4.enabled           true
+
 media.mediasource.webm.enabled          true
+
 media.fragmented-mp4.enabled            true
+
 media.fragmented-mp4.exposed            true
+
 media.fragmented-mp4.ffmpeg.enabled     true
+
 media.fragmented-mp4.gmp.enabled        true
+
 media.fragmented-mp4.use-blank-decoder  false
 ```
 
