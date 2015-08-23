@@ -58,21 +58,15 @@ If it doesn't work, check for `media.gstreamer.enabled` in `about:config`, it sh
 For YouTube video streaming and advanced player features MSE is used. You may follow [this guide](http://www.linuxveda.com/2015/04/02/enable-mse-native-html5-support-firefox-linux/) to enable it.
 
 In most cases just setting these values in `about:config` is enough:
+
 ```
 media.mediasource.enabled               true
-
 media.mediasource.mp4.enabled           true
-
 media.mediasource.webm.enabled          true
-
 media.fragmented-mp4.enabled            true
-
 media.fragmented-mp4.exposed            true
-
 media.fragmented-mp4.ffmpeg.enabled     true
-
 media.fragmented-mp4.gmp.enabled        true
-
 media.fragmented-mp4.use-blank-decoder  false
 ```
 
