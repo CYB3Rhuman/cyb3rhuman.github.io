@@ -133,6 +133,16 @@ img {
   background: $lightGray;
 }
 
+// inverted colors for code selection
+code::-moz-selection {
+  color: $lightGray;
+  background: $black;
+}
+code::selection {
+  color: $lightGray;
+  background: $black;
+}
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
