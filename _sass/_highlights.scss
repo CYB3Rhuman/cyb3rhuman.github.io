@@ -7,11 +7,21 @@
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
-  overflow: scroll;
+  overflow: auto;
 }
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+}
+
+// inverted colors for code selection
+code::-moz-selection {
+  color: $lightGray;
+  background: $black;
+}
+code::selection {
+  color: $lightGray;
+  background: $black;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
