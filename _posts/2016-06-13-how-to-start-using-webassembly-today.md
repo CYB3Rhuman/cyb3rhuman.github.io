@@ -47,7 +47,7 @@ For building we will need four tools located at:
 - `llvm/build/bin/clang`
 - `llvm/build/bin/llc`
 - `binaryen/build/bin/s2wasm`
-- `wabt/build/wast2wasm`
+- `wabt/build/wat2wasm`
 
 I will use their basenames because they are in my PATH.
 
@@ -55,8 +55,8 @@ Execute the following commands:
 
     clang -emit-llvm --target=wasm32 -S sample.c
     llc sample.ll -march=wasm32
-    s2wasm sample.s -o sample.wast
-    wast2wasm sample.wast -o sample.wasm
+    s2wasm sample.s -o sample.wat
+    wat2wasm sample.wat -o sample.wasm
 
 Now you have your C code first compiled to LLVM IR then to wasm through S-expressions representation.
 
